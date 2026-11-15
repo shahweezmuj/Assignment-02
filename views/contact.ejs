@@ -1,35 +1,218 @@
 
-<section class="container py-5">
-    <h1>Contact Me</h1>
+<!-- CONTACT HEADER -->
+<section class="page-header">
+    <div class="container">
+        <p class="section-tag">GET IN TOUCH</p>
+        <h1>Contact Me</h1>
+        <p>
+            Have a question or want to connect? Feel free to
+            reach out through any of the options below.
+        </p>
+    </div>
+</section>
 
-    <p>
-        Have a question or want to connect? Send me a message.
-    </p>
 
-    <form action="#" method="post">
+<!-- CONTACT CONTENT -->
+<section class="content-section">
+    <div class="container">
 
-        <div class="mb-3">
-            <label for="name" class="form-label">Name</label>
-            <input type="text" class="form-control"
-                   id="name" name="name" required>
+        <div class="row g-5">
+
+            <!-- CONTACT INFORMATION -->
+            <div class="col-lg-5">
+
+                <p class="section-tag">CONTACT INFORMATION</p>
+
+                <h2>Let's Start a Conversation</h2>
+
+                <p>
+                    I'm always open to connecting with others,
+                    discussing technology and exploring new
+                    opportunities to learn and collaborate.
+                </p>
+
+                <div class="contact-information">
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+
+                        <div>
+                            <h3>Email</h3>
+
+                            <a href="mailto:Shahweez.mujtaba@ontariotechu.net">
+                                Shahweez.mujtaba@ontariotechu.net
+                            </a>
+                        </div>
+                    </div>
+
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fa-brands fa-github"></i>
+                        </div>
+
+                        <div>
+                            <h3>GitHub</h3>
+
+                            <a href="https://github.com/shahweezmuj"
+                               target="_blank"
+                               rel="noopener noreferrer">
+                                github.com/shahweezmuj
+                            </a>
+                        </div>
+                    </div>
+
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </div>
+
+                        <div>
+                            <h3>LinkedIn</h3>
+
+                            <a href="https://linkedin.com/in/shahweez/"
+                               target="_blank"
+                               rel="noopener noreferrer">
+                                linkedin.com/in/shahweez
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- CONTACT FORM -->
+            <div class="col-lg-7">
+
+                <div class="contact-form-card">
+
+                    <h2>Send Me a Message</h2>
+
+                    <p>
+                        Fill out the form below to prepare an email.
+                    </p>
+
+                    <form action="mailto:Shahweez.mujtaba@ontariotechu.net"
+                          method="post"
+                          enctype="text/plain">
+
+                        <div class="mb-4">
+                            <label for="name" class="form-label">
+                                Your Name
+                            </label>
+
+                            <input type="text"
+                                   class="form-control"
+                                   id="name"
+                                   name="Name"
+                                   placeholder="Enter your name"
+                                   required>
+                        </div>
+
+
+                        <div class="mb-4">
+                            <label for="email" class="form-label">
+                                Your Email
+                            </label>
+
+                            <input type="email"
+                                   class="form-control"
+                                   id="email"
+                                   name="Email"
+                                   placeholder="Enter your email address"
+                                   required>
+                        </div>
+
+
+                        <div class="mb-4">
+                            <label for="subject" class="form-label">
+                                Subject
+                            </label>
+
+                            <input type="text"
+                                   class="form-control"
+                                   id="subject"
+                                   name="Subject"
+                                   placeholder="Enter a subject"
+                                   required>
+                        </div>
+
+
+                        <div class="mb-4">
+                            <label for="message" class="form-label">
+                                Message
+                            </label>
+
+                            <textarea class="form-control"
+                                      id="message"
+                                      name="Message"
+                                      rows="6"
+                                      placeholder="Write your message here..."
+                                      required></textarea>
+                        </div>
+
+
+                        <button type="submit" class="btn btn-orange">
+                            Prepare Email
+                            <i class="fa-solid fa-paper-plane ms-2"></i>
+                        </button>
+
+                    </form>
+
+                    <p class="form-note mt-3">
+                        This form uses your device's default email
+                        application. It does not send messages
+                        directly through the website.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- BOTTOM SECTION -->
+<section class="content-section alternate-section">
+    <div class="container text-center">
+
+        <h2>Find Me Online</h2>
+
+        <p class="cta-description">
+            You can also follow my work and connect with me
+            through my professional profiles.
+        </p>
+
+        <div class="contact-social-buttons">
+
+            <a href="https://github.com/shahweezmuj"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="btn btn-outline-light">
+
+                <i class="fa-brands fa-github me-2"></i>
+                GitHub
+
+            </a>
+
+            <a href="https://linkedin.com/in/shahweez/"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="btn btn-outline-light">
+
+                <i class="fa-brands fa-linkedin me-2"></i>
+                LinkedIn
+
+            </a>
+
         </div>
 
-        <div class="mb-3">
-            <label for="email" class="form-label">Email</label>
-            <input type="email" class="form-control"
-                   id="email" name="email" required>
-        </div>
-
-        <div class="mb-3">
-            <label for="comments" class="form-label">Comments</label>
-            <textarea class="form-control"
-                      id="comments" name="comments"
-                      rows="5" required></textarea>
-        </div>
-
-        <button type="submit" class="btn btn-warning">
-            Submit
-        </button>
-
-    </form>
+    </div>
 </section>
