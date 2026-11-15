@@ -1,0 +1,122 @@
+
+/* Main portfolio colours */
+:root {
+    --background: #171819;
+    --card: #222426;
+    --border: #37393b;
+    --text: #f2f2f2;
+    --muted: #b0b0b0;
+    --orange: #f28c28;
+}
+
+/* General page styling */
+body {
+    background-color: var(--background);
+    color: var(--text);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7;
+}
+
+/* Navigation */
+.navbar {
+    background: linear-gradient(135deg, #171819, #292b2e);
+    border-bottom: 1px solid var(--border);
+    padding: 18px 0;
+}
+
+.navbar-brand {
+    color: var(--orange);
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: var(--text);
+    margin-left: 15px;
+}
+
+.nav-link:hover {
+    color: var(--orange);
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: var(--text);
+}
+
+h1 {
+    font-size: clamp(32px, 5vw, 48px);
+    margin-bottom: 20px;
+}
+
+p {
+    color: var(--muted);
+}
+
+/* Buttons */
+.btn-warning {
+    background-color: var(--orange);
+    border-color: var(--orange);
+    color: #171819;
+    font-weight: bold;
+}
+
+.btn-warning:hover {
+    background-color: #ffa044;
+    border-color: #ffa044;
+}
+
+/* Profile image */
+.profile-image {
+    width: 260px;
+    height: 300px;
+    object-fit: cover;
+    border: 3px solid var(--orange);
+    border-radius: 12px;
+}
+
+/* Project cards */
+.project-card {
+    background-color: var(--card);
+    border: 1px solid var(--border);
+    border-top: 3px solid var(--orange);
+    color: var(--text);
+    transition: transform 0.2s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-4px);
+}
+
+.card-title {
+    color: var(--orange);
+}
+
+/* Contact form */
+.form-control {
+    background-color: var(--card);
+    border: 1px solid var(--border);
+    color: var(--text);
+}
+
+.form-control:focus {
+    background-color: var(--card);
+    color: var(--text);
+    border-color: var(--orange);
+    box-shadow: 0 0 0 0.2rem rgba(242, 140, 40, 0.2);
+}
+
+/* Footer */
+footer {
+    background-color: #111213;
+    border-top: 1px solid var(--border);
+}
+
+.footer-link {
+    color: var(--orange);
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: #ffa044;
+}
